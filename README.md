@@ -1,12 +1,12 @@
 myCMS
 =====
 
-myCMS is an example RESTful API for content management (ie blog articles, surveys, photo galleries) built on Python Flask and MongoDB. It is the example application used in the ['Building an Application' series](https://www.mongodb.com/webinar/build_app-part_1) of webinars run by MongoDB in EMEA. It will be developed over the course of the series and can be used to get started and play, and may even be the basis for your own project development.
+myCMS is an example RESTful API for content management (ie blog articles, surveys, photo galleries) built on Python Flask and MongoDB. It can be used to get started and play, and may even be the basis for your own project development.
 
 Current functionality
 ---------------------
 
-* Add an article 
+* Add an article
 * Retrieve all articles sorted by date
 * Retrieve all articles by tag
 * Retrieve a article
@@ -15,12 +15,18 @@ Current functionality
 * Retrieve all comments or a page of comments for an article
 * Basic HTTP authentication with username/ hashed password lookup
 
+Planned functionality
+---------------------
+
+* Front-end for content
+* API for admin functionality
+
 Getting started
 ---------------
 
 Clone this Github repo:
 ```shell
-$ git clone http://www.github.com/mattbates/mycms_mongodb
+$ git clone http://www.github.com/prasoonk/mycms_mongodb
 $ cd mycms-mongodb
 ```
 
@@ -56,7 +62,7 @@ $ deactivate
 Further reading
 ---------------
 
-Please read the online documentation for more about data modelling in MongoDB, including sections on common use cases (which myCMS is based in part).
+Please read the online documentation for more about data modeling in MongoDB, including sections on common use cases (which myCMS is based in part).
 
 * [Data Models](http://docs.mongodb.org/manual/data-modeling/)
 * [Use case - metadata and asset management:](http://docs.mongodb.org/ecosystem/use-cases/metadata-and-asset-management/)
